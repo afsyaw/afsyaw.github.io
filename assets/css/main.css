@@ -184,12 +184,11 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
+		
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		position: fixed;
+		
 		top: 0;
 	}
 
@@ -613,10 +612,10 @@
 /* Footer */
 
 	#footer {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);*/
 		bottom: 0;
 		cursor: default;
 		height: 6em;
@@ -625,6 +624,7 @@
 		position: absolute;
 		text-align: center;
 		width: 100%;
+		font-size: 0.8em;
 	}
 
 /* Wide */
@@ -980,3 +980,35 @@
 		#header nav {
 			padding: 0 1em;
 		} }
+
+
+
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #241946;
+ 
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  
+ and (-webkit-min-device-pixel-ratio: 2) {
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #241946;
+ 
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+}
