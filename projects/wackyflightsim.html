@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Wacky Flight Sim</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Projects by @afsyaw">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/projects.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+			<!-- Menu -->
+				<div class="topnav" id="topnavbar">
+					<a style="float: left;font-size: 1.5em" href="../index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+					<a href="http://coviss.org/portfolio-item/dynamic/">Research</a>
+					<a href="../projects.html">Projects</a>
+					<a href="https://afsyaw.wordpress.com/">Blog</a>
+					<a href="../about.html">About</a>
+					<a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">&#9776;</a>
+				</div> 
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="../index.html" class="logo">
+									<span class="title">[afsyaw]</span>
+								</a>
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Wacky Flight Sim</h1>
+							<span class="image main"><img src="images/flightsimbanner.jpg" alt="qbay" /></span>
+							<p><b>January 2015<br>
+							Team Members:</b> Amoako-Frimpong Samuel, <a href="https://gh.linkedin.com/in/kwaku-tabiri-871790b8">Kwaku Tabiri</a><br>
+							<b>Tools:</b> C#, Unity, Dive VR SDK</p>
+							<p>While experimenting with the Dive VR SDK and Google Cardboard, we decided to develop a virtual reality flight simulator. It was compiled for android using Unity</p>
+
+							<h2>Development</h2>
+							<p>We used the <a href="https://www.durovis.com/en/sdk.html">Durovis Dive SDK</a> for Unity durovis dive for pose estimation and lens distortion. We then imported a 3d model of a <a href="https://free3d.com/3d-model/cessna-172-40965.html">Cessna 172</a>, animated the propellers and added engine sounds. A collision box was added to trigger explosions and restart the game.</p>
+
+							<p>As it was a demo, yaw was directly tied to the heading of the VR headset, and uncoupled from the roll, causing unrealistic turns. That may fixed in future if we ever get back to it.</p>
+
+							<span class="image blog"><img src="images/flightsim1.jpg" alt="FlightSim" /></span>
+							
+							<div class="video-container">
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/6izuyGs8HAM" frameborder="0" allowfullscreen></iframe></div>
+
+							<br><br>
+
+						
+						</div>
+					</div>
+
+
+				<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> afsyaw</span>
+			</footer>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

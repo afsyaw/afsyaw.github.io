@@ -9,6 +9,17 @@ particlesJS.load('particles-js', 'assets/js/particlesjs-config.json', function()
 });
 
 
+
+function responsiveMenu() {
+    var x = document.getElementById("topnavbar");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+} 
+
+
 /* Otherwise just put the config content (json): 
 
 particlesJS('particles-js',
