@@ -1942,6 +1942,10 @@
 					padding-top: 0;
 				}
 
+		 ul.circle {
+   				list-style-type: circle;
+ 			}
+
 		ul.icons {
 			cursor: default;
 			list-style: none;
@@ -2836,3 +2840,125 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+.circle {
+  position: relative;
+  border-radius: 50%;
+}
+
+/* Assumes the image subject is centered */
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+
+/* Assumes the image subject is in the top-center */
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+
+.image-text {
+
+    width: auto
+    height: 210px;
+    overflow: hidden;
+}
+
+
+
+.image-text-content {
+
+	margin-left: 200px;
+	
+}
+    
+
+.image-text img {
+    margin-right: 15px;
+    float: left;
+}
+
+@media screen and (max-width: 480px) {
+
+	.image-text-content {
+	   
+	   margin-left: 0px;
+	   margin-top: 200px;
+	}
+
+	
+	
+	}
+
+.block-content {
+	
+	overflow:hidden;
+}
+
+
+.block-content p {
+	margin: 0;
+
+	float:right;
+	width:70%;
+	
+}
+
+
+.block-content b {
+
+	
+	float:left;
+	margin-left: 0;
+	
+
+	
+}
+.block-content li {
+
+	
+	/*border: 3px solid  blue;*/
+	
+}
+
+
+
+@media screen and (max-width: 850px) {
+
+	.block-content p {
+
+	width:100%;
+	float:left;
+	
+	}
+
+	.block-content li {
+
+	list-style: none;
+
+	}
+
+}
+
